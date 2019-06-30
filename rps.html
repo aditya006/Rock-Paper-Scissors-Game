@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>Rock Paper Scissors</title>
+<link rel="stylesheet" type="text/css" href="CSS/index.css">
+
+</head>
+<body>
+	<header>
+		<h1>
+			Rock Paper Scissors
+		</h1>
+	</header>
+	<div class="score-board">
+		<div class="badge"id="user-label">
+		USER
+		</div>
+		<div class="badge" ID="comp-label">COMP
+		</div>
+		<div id="score">
+		<span id="user-score">0</span>:<span id="comp-score">0</span>
+		</div>
+	</div>
+	<div class="results">
+		<p id="result"> Paper Covers Rocks. You Win!</p>
+	</div>
+	<div class="choices">
+		<div class="choice" id="r"><img src="Images/rock.jpg" width="200px" height="100px"></div>
+		<div class="choice" id="p"><img src="Images/paper.jpg"width="200px" height="100px"></div>
+		<div class="choice" id="s"><img src="Images/scissors.jpg"width="200px" height="100px"></div>
+	</div>
+	<p id="action-message"> Make your move!</p>
+	<div class="reset">
+		<div class="reset_btn">
+			<button class="btn warning" id="reset">RESET</button>
+		</div>
+	</div>
+<script charset="utf-8" src="Script/logic.js"></script>
+</body>
+</html>

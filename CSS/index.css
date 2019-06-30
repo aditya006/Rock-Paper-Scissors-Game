@@ -1,0 +1,137 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+header{
+	background-color: white;
+	padding: 20px;
+}
+header>h1{
+	color:#25272E;
+	text-align: center;	
+	font-family: Asap,sans-serif;
+}
+body{
+	background-color: #292C34;
+}
+/*.reset{
+	margin-left:47% ;
+	margin-top:10px; 
+	padding: 10px;
+	height: 40px;
+	width: 90px;
+	color: white;
+	background-color: red;
+	font-size:25px;
+
+}
+*/
+.reset{
+	text-align: center;
+}
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+.btn:hover {background: red;}
+
+.warning {color: white;}
+
+.score-board{
+	border: 3px solid white;
+	width: 200px;	 
+	margin: 20px auto;
+	font-size: 45px;
+	padding: 15px 65px;
+	font-family: Asap,sans-serif;
+	position: relative;
+	color: white;
+	border-radius: 4px;
+	text-align: center;
+
+}
+.badge{
+	padding-left:  2px;
+	padding-right: 2px;
+	background-color: #E2584D;
+	color: white;
+	font-size:15px;
+	padding: 3px 10px;
+}
+#score{
+	display: inline-block;
+}
+#user-label{
+	position: absolute;
+	top: 30px;
+	left: -30px;
+}
+#comp-label{
+	position: absolute;
+	top: 30px;
+	right: -30px;
+}
+.results{
+	text-align: center;
+	padding: 5px 400px;
+	font-family: Asap, sans-serif;
+	font-size: 40px;
+	color:white;
+
+
+}
+.results>p{
+	text-align: center;
+	font-size: 40px;
+	color: white
+
+
+}
+#result{
+	display:inline-block;
+}
+.choices{
+	text-align: center;
+	margin: 50px 0px
+
+
+}
+.choice{
+	
+	margin: 20px;
+	display: inline-block;
+	padding: 30px;
+	border: 4px solid black;
+	border-radius:50%;
+	transition: all 0.3s ease;
+
+}
+.choice:hover{
+	cursor: pointer;
+	background-color: black;
+}
+#action-message{
+	text-align: center;	
+	font-size: 30px;
+	color: white;
+	font-family: Asap,sans-serif;
+	font-weight: bold;
+
+}
+.green-glow{
+	border: 4px solid #4dcc7d;
+	box-shadow: 0 0 10px #31b43a;
+}
+.red-glow{
+	border: 4px solid #fc121b;
+	box-shadow: 0 0 10px #d01115;
+}
+.gray-glow{
+	border: 4px solid white;
+	box-shadow: 0 0 10px #25292b;
+}
